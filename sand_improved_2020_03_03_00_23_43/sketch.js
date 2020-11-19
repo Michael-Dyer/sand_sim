@@ -102,7 +102,7 @@ function generate(){
           next[x-1][y+1] = 1;
            board[x][y] = 0;
          }
-         else if(board[x+1][y+1] == 0 && x<= columns-4) {
+         else if(board[x][y+1] == 0 && x<= columns-4) {
           next[x+1][y+1] = 1;
            board[x][y] = 0;
          }
